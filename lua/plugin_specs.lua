@@ -299,13 +299,13 @@ local plugin_specs = {
     end,
   },
 
-  -- Show git change (change, delete, add) signs in vim sign column
-  {
-    "lewis6991/gitsigns.nvim",
-    config = function()
-      require("config.gitsigns")
-    end,
-  },
+  -- -- Show git change (change, delete, add) signs in vim sign column
+  -- {
+  --   "lewis6991/gitsigns.nvim",
+  --   config = function()
+  --     require("config.gitsigns")
+  --   end,
+  -- },
 
   -- Better git commit experience
   { "rhysd/committia.vim", lazy = true },
